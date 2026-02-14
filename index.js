@@ -13,4 +13,7 @@ function save() {
   let countStr = count + " - ";
   saveEl.textContent += countStr;
   console.log(count);
+  countStr = 0;
+  count = 0;
+  countEl.textContent = count;
 }
